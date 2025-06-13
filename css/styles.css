@@ -108,10 +108,18 @@ a {
   background-color: #f4f4fd;
 }
 
-.our-team-headline {
+.team-title {
   color: #2e2f42;
   font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
   font-weight: 700;
+}
+
+.team-card {
+  background-color: #ffffff;
 }
 
 .team-member-name {
