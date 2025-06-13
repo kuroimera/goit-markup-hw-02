@@ -17,55 +17,57 @@ a {
 /* ------------------Header----------------- */
 .logo-web {
   font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
   color: #4d5ae5;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.logo-web:hover,
+.logo-web:focus {
+  color: #404bbf;
 }
 
 .logo-studio {
   color: #2e2f42;
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  line-height: 1.17;
 }
-
-.logo-web:hover,
-.logo-web:focus,
 .logo-studio:hover,
 .logo-studio:focus {
   color: #404bbf;
 }
 
 .navigation {
-  font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.02;
 }
 .navigation:hover,
 .navigation:focus {
   color: #404bbf;
 }
 
-.contact-link {
-  font-size: 16px;
+.contacts {
   font-style: normal;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
 }
 
-.contact-link:hover,
-.contact-link:focus {
+.contacts:hover,
+.contacts:focus {
   color: #404bbf;
 }
 
-.hero {
-  background-color: #2e2f42;
+.hero-banner {
+  background-image: url(../images/Dark-bg.jpg);
   background-size: cover;
 }
 
-.hero-title {
+.headline-1 {
   color: #ffffff;
   font-size: 56px;
   font-weight: 700;
@@ -73,7 +75,7 @@ a {
   letter-spacing: 1.12px;
 }
 
-.hero-button {
+.button {
   color: #ffffff;
   background-color: #4d5ae5;
   font-weight: 500;
