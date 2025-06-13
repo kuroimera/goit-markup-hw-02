@@ -1,5 +1,5 @@
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto", "Open Sans", sans-serif;
   color: #434455;
   background-color: #ffffff;
 }
@@ -11,4 +11,119 @@ ol {
 
 a {
   text-decoration: none;
+  color: #2e2f42;
+}
+
+/* ------------------Header----------------- */
+.logo-studio {
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.54px;
+  line-height: 1.17;
+}
+.logo-web {
+  color: #4d5ae5;
+}
+
+.navigation {
+  font-weight: 500;
+}
+
+.contacts {
+  font-style: normal;
+}
+
+.contacts:hover,
+.contacts:focus {
+  color: #404bbf;
+}
+
+.hero-banner {
+  background-image: url(../images/Dark-bg.jpg);
+  height: 600px;
+  background-size: cover;
+}
+
+.headline-1 {
+  color: #ffffff;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 1.12px;
+  max-width: 496px;
+}
+
+.button {
+  color: #ffffff;
+  background-color: #4d5ae5;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #404bbf;
+}
+
+/*------------- FEATURES----------- */
+.features-headline {
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.features-description {
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  max-width: 264px;
+}
+
+/* ------------------OUR TEAM ----------------- */
+.our-team {
+  background-color: #f4f4fd;
+}
+
+.our-team-headline {
+  color: #2e2f42;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.team-member-name {
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+/* --------------------OUR PORTFOLIO--------------- */
+.our-portfolio-headline {
+  color: #2e2f42;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.portfolio-example {
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+/* ------------------------FOOTER-------------------- */
+.footer-text {
+  color: #f4f4fd;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  max-width: 264px;
+}
+
+.footer {
+  background-color: #2e2f42;
+  height: 312px;
+}
+
+.logo-studio-footer {
+  color: #f4f4fd;
+  text-transform: uppercase;
 }
