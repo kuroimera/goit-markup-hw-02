@@ -22,19 +22,17 @@ a {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5; 
-
+  color: #4d5ae5;
+}
 
 .logo-studio {
   color: #2e2f42;
   letter-spacing: 0.03em;
 }
 
-.logo-web:hover,
-.logo-web:focus,
 .logo-studio:hover,
 .logo-studio:focus {
-  color: #404bbf; 
+  color: #404bbf;
 }
 
 .navigation {
@@ -55,7 +53,6 @@ a {
   font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
 }
 
 .contact-link:hover,
