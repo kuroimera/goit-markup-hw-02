@@ -18,8 +18,11 @@ a {
 .logo-web {
   font-family: "Raleway", sans-serif;
   color: #4d5ae5;
-  line-height: 1.5;
-  letter-spacing: 0.02;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03;
+  font-size: 18px;
+  text-transform: uppercase;
 }
 .logo-web:hover,
 .logo-web:focus {
