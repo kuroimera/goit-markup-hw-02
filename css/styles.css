@@ -53,12 +53,16 @@ a {
   color: #404bbf;
 }
 
-.contacts {
+.contact-info {
   font-style: normal;
 }
 
-.contacts:hover,
-.contacts:focus {
+.contact-link {
+  font-style: normal;
+}
+
+.contact-link:hover,
+.contact-link:focus {
   color: #404bbf;
 }
 
