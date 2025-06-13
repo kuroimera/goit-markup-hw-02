@@ -26,7 +26,8 @@ a {
 
 
 .logo-studio {
-  color: #2e2f42; 
+  color: #2e2f42;
+  letter-spacing: 0.03em;
 }
 
 .logo-web:hover,
@@ -39,7 +40,7 @@ a {
 .navigation {
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.02;
+  letter-spacing: 0.02em;
 }
 .navigation:hover,
 .navigation:focus {
@@ -52,6 +53,9 @@ a {
 
 .contact-link {
   font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 
 .contact-link:hover,
