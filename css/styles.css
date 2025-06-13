@@ -172,7 +172,22 @@ a {
   background-color: #2e2f42;
 }
 
+.logo-web-footer {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
 .logo-studio-footer {
   color: #f4f4fd;
-  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.logo-studio-footer:hover,
+.logo-studio-footer:focus {
+  color: #404bbf;
 }
