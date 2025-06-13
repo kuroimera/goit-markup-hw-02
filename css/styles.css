@@ -60,12 +60,12 @@ a {
   color: #404bbf;
 }
 
-.hero-banner {
-  background-image: url(../images/Dark-bg.jpg);
+.hero {
+  background-color: #2e2f42;
   background-size: cover;
 }
 
-.headline-1 {
+.hero-title {
   color: #ffffff;
   font-size: 56px;
   font-weight: 700;
@@ -73,7 +73,7 @@ a {
   letter-spacing: 1.12px;
 }
 
-.button {
+.hero-button {
   color: #ffffff;
   background-color: #4d5ae5;
   font-weight: 500;
