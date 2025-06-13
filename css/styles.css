@@ -65,7 +65,7 @@ a {
 
 .hero-banner {
   background-image: url(../images/Dark-bg.jpg);
-  background-size: cover;
+  background-color: #2e2f42;
 }
 
 .headline-1 {
